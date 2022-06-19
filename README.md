@@ -1,11 +1,14 @@
 # PHP FOR WORDPRESS
-> PHP - the language Wordpress is written in.
+> **PHP** - the language Wordpress is written in.
 
 #### PHP Functions
-> function greet($parameter1, $parameter2){
->    echo "<p>Hi my mame is $parameter1 and my favourite color is $parameter2</p>";
->}
->greet('argument1', 'argument2');
+```
+function greet($parameter1, $parameter2){
+   echo "<p>Hi my mame is $parameter1 and my favourite color is $parameter2</p>";
+}
+greet('argument1', 'argument2');
+
+```
 
 ####  WordPress has a lot of in-built functions.
 - bloginfo( ); -gives all kinds of information about a website. 
@@ -21,11 +24,14 @@
 
 - Looping
      - Doing something once for each item.
-> $count = 1;
->while($count <= 100){
->    echo "<li>$count</li>";
->      $count++;
->}
-##### - WordPress uses while() loops to display content i.e  blog posts
+```
+$count = 1;
+while($count <= 100){
+    echo "<li>$count</li>";
+    $count++;
+}
+```
+> 
+- WordPress uses only **while()** loops to display content i.e  blog posts
 
 
